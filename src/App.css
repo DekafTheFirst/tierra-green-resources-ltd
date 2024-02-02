@@ -1,0 +1,1318 @@
+/* Navbar */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: Poppins;    
+    font-weight: 400;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    --cl--1--: #fff;
+    --cl--2--: #6B8E23;
+    --cl--3--: #DAA520;
+    --cl--4--: #E2725B;
+    --cl--5--: #87CEEB;
+    --cl--6--: #87CEEB;
+    --cl--7--: #d3d3d3;
+    --cl--8--: #000;
+
+
+    --nav-height: 60px;
+    background: var(--cl--1--);
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+    margin: 0;
+}
+
+h1 {
+    font-size: clamp(30px, 10vw, 50px);
+}
+
+h2 {
+    font-size: clamp(25px, 5vw, 35px);
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: var(--cl--8--);
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    margin: 0;
+}
+
+.row * {
+    padding: 0;
+} 
+
+#content {
+    min-height: 90vh;
+    position: relative;
+    
+}
+
+
+
+.banner {
+    height: 25vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.banner .breadcrumb-item a {
+    color: var(--cl--3--);
+}
+
+.banner .breadcrumb-item.active{
+    text-transform: capitalize;
+}
+
+.banner .breadcrumb-item::before {
+    color: var(--cl--1--);
+}
+
+.banner .banner-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .banner-heading * {
+    color: var(--cl--1--);
+}
+
+section {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 50px 0;
+}
+
+
+
+.section-heading{
+    color: var(--cl--5--);
+    font-weight: 800;
+}
+
+
+
+
+.page-btn {
+    background-color: var(--cl--3--);
+    color: var(--cl--1--);
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+.page-btn:hover{
+    background-color: var(--cl--4--);
+}
+
+
+.page-btn-2 {
+    padding: 8px 32px;
+    border-radius: 25px;
+    border: 2px solid var(--cl--4--);
+    color: var(--cl--4--);
+    margin-right: auto;
+}
+
+.page-btn-2:hover {
+    background: var(--cl--4--);
+    color: var(--cl--1--);
+}
+
+.bg-gray{
+    background: rgba(211, 211, 211, 0.15); 
+
+}
+
+
+/* Navbar */
+.navbar svg {
+    width: 25px;
+}
+
+.navbar{
+    font-family: Poppins;
+    margin: auto;
+    z-index: 100;
+    position: relative;
+    padding: 10px;
+}
+
+
+.navbar * {
+    font-weight: 500;
+
+}
+
+.navbar .logo {
+    font-weight: 800;
+    text-align: center;
+    border-radius: 15px;
+    padding: 0px;
+    margin: 0;
+}
+
+.navbar .logo img{
+    width: 60px;
+}
+
+
+
+ .navbar .navbar-toggler {
+    border: none;
+    padding: 0;
+}
+
+
+.navbar .navbar-toggler:focus{
+    border: none;
+    box-shadow: none;
+}
+
+
+.navbar .navbar-collapse {
+    padding-top: 30px;
+    width: 90vw;
+    height: 100vh;
+    
+}
+
+.navbar .navbar-collapse .navbar-nav {
+    gap: 30px;
+}
+
+
+.navbar .dropdown-toggle::after{
+    margin-left: 0.5em
+}
+
+.navbar .dropdown {
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: var(--cl--2--);
+    padding-top: 15px;
+    gap: 5px;
+}
+
+.navbar .dropdown .nav-item {
+    margin-bottom: 10px;
+}
+.navbar .dropdown .nav-item:last-child {
+    margin-bottom: 0;
+}
+.navbar .dropdown a.nav-link {
+    padding-bottom: 10px;
+}
+
+.navbar .dropdown a.nav-link:hover {
+    margin-bottom: -2.222px;
+}
+
+
+.navbar .navbar-nav li:hover .dropdown {
+    display: block;
+}
+
+.navbar .dropdown-toggle::after{
+    margin-left: 0.5em
+}
+
+.navbar .navbar-nav {
+    gap: 10px;
+}
+
+
+.navbar .nav-link {
+    padding: 3px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.navbar .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.navbar .nav-link:hover, .navbar .nav-link.active {
+    color: var(--cl--3--);
+}
+    
+
+
+
+/* Slider */
+.hero {
+    height: 45vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs/tierra-green-resources-ltd/1.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-top: 0;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.hero .hero-wrapper {
+    display: flex;
+    position: relative;
+}
+
+.hero .hero-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    position: relative;
+}
+
+.content-wrapper {
+    padding: 40px;
+    z-index: 10;
+}
+
+.hero .hero-content::before{
+    content: " ";
+    position: absolute;
+    background-color: var(--cl--2--);
+    opacity: 1;
+    height: 150%;
+    z-index: 2;
+    transform: skewY(-3deg);
+    width: 100%;
+    left: 0;
+    top: -20%;
+    backface-visibility: hidden;
+    display: block;
+}
+
+.hero .hero-content::after{
+    content: "";
+    position: absolute;
+    background-color: var(--cl--2--);
+    opacity: .7;
+    height: 114%;
+    width: 100%;
+    z-index: 1;
+    transform: skewY(-5deg);
+    left: 0;
+    top: 4%;
+    top: -30%;
+    backface-visibility: hidden;
+}
+
+.hero .overlay-dark, .hero .overlay-light {
+    display: none;
+}
+
+
+
+.hero .hero-content h4 {
+    
+}
+
+.hero .hero-content span{
+    display: block;
+    font-size: 32px;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 1.1;
+    margin-left: 20px;
+}
+
+
+
+.hero *{
+    color: var(--cl--1--);
+}
+
+
+/* Welcom */
+
+
+
+.welcome h2 {
+    text-transform: none;
+    text-align: center;
+    line-height: 1.25;
+}
+
+.welcome p {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Reputation */
+.reputation {
+
+}
+
+.reputation .images-row {
+    row-gap: 30px;
+    margin-bottom: 40px;
+}
+
+
+.reputation .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.reputation .card {
+    height: 210px;
+    flex-basis: 370px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    justify-content: space-around;
+    gap: 15px;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.reputation .card:hover {
+    padding: -1px;
+    border: 1px solid var(--cl--3--);
+    transition: all .1s ease-out;
+
+}
+
+.card-top {
+    display: flex;
+    
+}
+
+.reputation .card img {
+    width: 30px;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.reputation .card .link-img-wrapper {
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.reputation .card .link-img {
+    width: 20px;
+}
+
+.reputation .card:hover .link-img-wrapper {
+    border: 1px solid var(--cl--7--);
+    transition: all .3s ease-out;
+}
+.reputation .card:hover .link-img {
+    transform: rotate(-45deg);
+    transition: all .3s ease-out;
+
+}
+
+
+
+
+
+
+.reputation .card p {
+    font-size: 14px;
+}
+
+
+.reputation .card a {
+    font-weight: 700;
+    color: var(--cl--5--);
+}
+
+
+.home-about-us .content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.home-about-us .header-image{
+    position: relative;
+}
+
+.home-about-us .header-image .img-wrapper{
+    width: 90%;
+}
+
+.home-about-us .header-image img{
+    height: 100%;
+}
+
+.home-about-us .header-image .img-wrapper:first-child{
+    border-right: 10px solid var(--cl--1--);
+    border-top: 10px solid var(--cl--1--);
+}
+
+
+.home-about-us .header-image .img-wrapper:last-child{
+    position: absolute;
+    right: 0;
+    top: -45px;
+    z-index: -1;
+}
+
+.home-about-us .page-btn-2{
+    border-radius: 10px;
+    padding: 15px 60px;
+    border-width: 3px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+}
+
+.services .cards{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.services .card-title {
+    font-size: 16px;
+}
+
+.services .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.services .card-body .card-title {
+    margin-bottom: 15px;
+}
+
+
+.services .card{
+    height: 480px;
+    width: 320px;
+    border-radius: 15px;
+    background: rgba(226, 242, 207, 0.42);
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.services .card-img-top {
+    height: 200px;
+    width: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.services .card-btn {
+    margin-right: auto;
+    margin-top: auto;
+
+}
+
+
+
+/* Swiper */
+
+.mySwiper{
+    
+    max-width: 100%;
+}
+
+.mySwiper img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-css-mode > .swiper-wrapper {
+    align-items: center;
+}
+
+.swiper-custom-pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--cl--4--) !important;
+}
+
+
+
+/* About Us Page */
+
+.about-us .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/2.JPG");
+}
+
+.about-us .row {
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.about-us .row .col-12{
+    padding: 25px;
+}
+
+.about-us .row:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+
+
+
+.about-us .accordion-item {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.about-us .accordion-button {
+    font-weight: 600;
+    padding: 15px;
+}
+
+
+
+.about-us .accordion-body {
+    padding: 15px;
+}
+
+
+.about-us .accordion-body ul li {
+    margin-bottom: 15px;
+} 
+
+.about-us .accordion-button:not(.collapsed)  {
+    background-color: var(--cl--3--);
+    -webkit-transition: 0.3s ease-in-out;
+}
+
+.about-us .accordion-button:focus {
+    box-shadow: none;
+}
+
+.about-us .accordion-button.collapsed{
+    border: 1px solid var(--cl--3--);
+}
+
+.about-us .our-team .wrapper {
+    display: flex;
+    justify-items: center;
+}
+
+.about-us .our-team .cards {
+    display: flex;
+    justify-content: center;
+    justify-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.about-us .our-team .card {
+    width: 300px;
+    height: 470px;
+    background-color: var(--cl--4--);
+    overflow: hidden;
+    border: none;
+}
+
+.about-us .our-team .card *{
+    color: var(--cl--2--);
+}
+
+
+.about-us .our-team .card .img-wrapper {
+    background-color: var(--cl--2--);
+}
+
+.about-us .our-team .card .card-img {
+    height: 220px;
+    object-fit: cover;
+    object-position: top;
+    border-radius:0;
+    margin-top: 10px;
+}
+
+.about-us .our-team .card-body {
+    position: relative;
+    padding: 0 15px;
+}
+
+
+.about-us .our-team .card .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -35px;
+    width: 65px;
+    height: 65px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: var(--cl--1--);
+}
+
+.about-us .our-team .card .logo img{
+    width: 70%;
+    height: 70%;
+}
+
+.about-us .our-team .card .content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-us .our-team .card .name {
+    border-bottom: 3px solid var(--cl--2--);
+    width: fit-content;
+    padding-bottom: 8px;
+}
+
+
+.about-us .our-team .card .media-links {
+    position: absolute;
+    bottom: 0;
+
+}
+
+/* End About Us */
+
+
+/* Missions */
+
+.missions .container-fluid{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.missions .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/33.JPG");
+    background-position: center center;
+}
+
+
+.missions .row {
+    align-items: center;
+    background-color: var(--cl--2--);
+    flex-direction: row-reverse;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.missions .row:hover {
+    opacity: 0.9;
+    background-color: var(--cl--5--);
+}
+
+/* End Missions */
+
+
+
+/* Join Us */
+.join-us .banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/19.jpg");
+    background-position: 40% 35%;
+}
+/* End Join Us */
+
+
+
+/* Donate */
+
+.donate .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/45.JPG");
+    background-position: 40% 35%;
+
+}
+/* End Donate */
+
+/* End */
+
+
+
+/* Contact */
+
+.contact-page .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/7.jpg");
+    background-position: 50% 50%;
+
+}
+.contact-content .row * {
+    padding: 12px;
+}
+
+.contact-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 70px 0;
+} 
+
+
+.contact-content p {
+    padding: 1em 0;
+}
+
+.form {
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.form>* {
+    flex: 1 1 15em;
+}
+
+form input, form select, form textarea {
+    padding: 1em 0.5em;
+    width: 100%;
+    border: 1px solid var(--cl--4--);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+form select option:checked {
+    background: var(--cl--3--);
+    color: var(--cl--1--);
+}
+
+.form+div {
+    padding-top: 2em;
+}
+
+form p {
+    text-align: left;
+    padding: 0 0 2em 0 !important;
+}
+
+/* End Contact */
+
+
+
+
+
+/* Footer */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+    padding-bottom: 3em;
+    background: var(--cl--3--);
+
+}
+
+
+
+.logo-img{
+    width: 40px;
+}
+
+
+footer h5 {
+    color: var(--cl--1--);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+footer .link-category {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+footer .link-category a {
+    color: var(--cl--2--);
+    margin-bottom: 10px;
+}
+
+footer .link-category a:hover {
+    color: var(--cl--1--);
+}
+
+
+
+
+
+footer .form-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+footer .form-container input{
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+footer .page-btn {
+    background-color: #FF9800;
+    border: none;
+    color: var(--cl--1--);
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+footer .page-btn:hover {
+background-color: #F57C00;
+}
+
+
+
+
+.media-links {
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+
+.media-links a {
+    fill: var(--cl--3--);
+    width: 40px;
+}
+
+.media-links .media-icon  {
+    width: 32px;
+    max-width: unset;
+}
+
+
+.media-links a:hover {
+    fill: var(--cl--4--);
+}
+
+.company-info a {
+    color: #FF9800;
+}
+
+.company-info p{
+        margin-bottom: 10px;
+        color: var(--cl--1--);
+}
+
+
+
+.copy-right {
+    width: 90%;
+    padding-top: 3em;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid var(--cl--2--);
+    justify-content: center;
+}
+
+.copy-right .copy-right-btn {
+    margin-left: auto;
+    padding: 10px 23px ;
+    color: var(--cl--1--);
+    background-color: var(--cl--2--);
+    text-wrap: nowrap;
+}
+
+.copy-right a:hover {
+    background-color: #0f1114;
+}
+
+
+.copy-right p {
+    font-size: 14px;
+    color: var(--cl--2--);
+    padding-left: 10px;
+}
+
+
+@media screen and (max-width: 375px) {
+    .link-category {
+        width: 100%;
+    }
+
+    footer .form-container {
+        flex-wrap: wrap;
+    }
+
+    footer .form-container input {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    footer .page-btn {
+        width: 100%;
+    }
+
+
+
+    
+}
+
+
+@media screen and (min-width: 567px) {
+    .container-fluid {
+        padding: 0;
+        width: 90%;
+        max-width: 1300px;
+    }
+
+
+    .hero .hero-content span{
+        font-size: 40px;
+        
+    }
+    
+    
+}
+
+@media screen and (min-width: 640px) {
+    .swiper-container {
+      width: 640px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .container-fluid {
+        width: 90%;
+    }
+
+    
+    .navbar {
+        height: var(--nav-height);
+    }
+    .navbar .navbar-collapse {
+        position: static;
+        padding-top: 0;
+        height: 100%;
+
+
+    }
+
+    .navbar .navbar-collapse .navbar-nav {
+        gap: 10px;
+
+    }
+
+    
+
+    
+    .navbar .nav-item:last-child{
+        border: 2px solid var(--cl--3--);
+        padding: 3px 7px;
+        border-radius: 5px;
+    }
+
+    .navbar .nav-item:last-child:hover{
+        background-color: var(--cl--3--);
+        transition: .3s;
+    }
+
+    
+    .navbar .nav-item:last-child a{
+        color: var(--cl--8--);
+        
+    }
+
+    .navbar .nav-item:last-child a:hover{
+        border: none;
+    }
+
+    
+
+    .banner {
+        height: 40vh;
+    }
+
+
+    .home-about-us .page-btn-2 {
+        width: unset;
+        
+    }
+
+
+    .reputation .images-row {
+        flex-direction: row-reverse;
+    }
+
+    .reputation .images-row img{
+        border-radius: 8px;
+    }
+    .reputation .images-row .left-column {
+        padding-right: 7px;
+    }
+
+    .reputation .images-row .left-column img{
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+
+    .reputation .images-row .right-column {
+        padding-left: 7px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reputation .images-row .right-column img {
+        flex-grow: 2;
+        object-fit: cover;
+
+    }
+
+
+    .mySwiper{
+        width: 750px;
+    }
+
+
+    footer .container-fluid {
+        width: 90%;
+    }
+
+}   
+
+
+@media screen and (min-width: 992px) {
+    .hero {
+        height: 25vh;
+    }
+
+    .hero .hero-wrapper {
+        width: 60%;
+    }
+
+    @keyframes lineSlideInFromLeft {
+        0% {
+            left: -17%;
+        }
+        
+        100% {
+            left: 93%;
+        }        
+    }
+
+    .hero .hero-wrapper::after {
+        background-color: var(--cl--3--);
+        content: " ";
+        position: absolute;
+        top: 0;
+        z-index: 3;
+        width: 3px;
+        transform: skewX(-30deg);
+        backface-visibility: hidden;
+        height: 100%;
+        left: 93%;
+        animation: lineSlideInFromLeft 1.5s ease 1;
+    }
+
+    @keyframes textSlideInRight  {
+        0% {
+            left: 16%;
+        }
+        100% {
+            left: 0;
+        }
+        
+    }
+    
+
+    .hero .hero-content {
+        width: 90%;
+        margin-bottom: auto;
+        animation: textSlideInRight 1.5s ease 1;
+    }
+
+    .hero .hero-content span{
+        font-size: 43px;
+    }
+    
+    .hero .hero-content::before, .hero .hero-content::after{
+        display: none;
+    }
+
+    @keyframes opaqueSlide {
+        0% {
+            left: 20%;
+            z-index: 0;
+        }
+        100% {
+            left: -27%;
+            z-index: 1;
+        }
+    }
+
+    @keyframes translucentSlide {
+        0% {
+            left: -10%;
+            transform: skewX(-16deg);
+        }
+
+        100% {
+            left: -16%;
+            transform: skewX(-20deg);
+        }
+    }
+
+    
+    .hero .overlay-dark{
+        display: block;
+        position: absolute;
+        width: 60%;
+        transform: skewX(-12deg);
+        opacity: 1;
+        background-color: var(--cl--2--);
+        height: 100%;
+        z-index: 1;
+        left: -27%;
+        animation: opaqueSlide 1.5s ease;
+    }
+
+    .hero .overlay-light{
+        display: block;
+        position: absolute;
+        width: 110%;
+        transform: skewX(-20deg);
+        opacity: .85;
+        background-color: var(--cl--2--);
+        z-index: 2;
+        height: 100%;
+        left: -16%;
+        animation: translucentSlide 1.5s ease 1;
+    }
+
+    .welcome h2 {
+        text-align: start;
+        line-height: 1.25;
+        margin-right: auto;
+    }
+    
+    .welcome p {
+        padding: 10px;
+        text-align: left;
+    }
+    
+
+    
+
+    /* .hero .hero-content::after{
+        content: "";
+        position: absolute;
+        background-color: var(--cl--2--);
+        opacity: .7;
+        height: 114%;
+        width: 100%;
+        z-index: 1;
+        transform: skewY(-5deg);
+        left: 0;
+        top: 4%;
+        top: -30%;
+        backface-visibility: hidden;
+    } */
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        height: 45vh;
+    }
+    .container-fluid {
+        width: 90%;
+    }
+    .home-about-us .container-fluid > .row{
+        align-items: end;
+        flex-direction: row-reverse;
+    }
+
+    .home-about-us .container-fluid > .row > div {
+        padding: 25px;
+    }
+
+    .banner {
+        height: 50vh;
+    }
+
+    .home-about-us .page-btn-2 {
+        width: 100%;
+        
+    }
+    .about-us .row {
+        margin-bottom: 70px;
+    }
+    
+    
+    
+}
