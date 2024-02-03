@@ -22,7 +22,7 @@ const Projects = () => {
 
             <div className="row">
                 <div className="col-md-6">
-                    <img src={require('../imgs/tierra-green-resources-ltd/13.jpg')}/>
+                    <img src={require('../imgs/tierra-green-resources-ltd/13.JPG')}/>
                 </div>   
                 <div className="col-md-6 p-4">
                     <h2 className='heading'>Mission to Igumale, Ado LGA, Benue State</h2>
@@ -37,7 +37,7 @@ const Projects = () => {
 
             <div className="row">
                 <div className="col-md-6">
-                    <img src={require('../imgs/tierra-green-resources-ltd/32.JPG')}/>
+                    <img src={require('../imgs/tierra-green-resources-ltd/12.JPG')}/>
                 </div>   
                 <div className="col-md-6 p-4">
                     <h2 className='heading'>Mission to Tukuba Village, Kuje Area Council, F.C.T, Abuja.</h2>
@@ -50,7 +50,7 @@ const Projects = () => {
             </div>
             <div className="row">
                 <div className="col-md-6">
-                    <img src={require('../imgs/tierra-green-resources-ltd/41.JPG')}/>
+                    <img src={require('../imgs/tierra-green-resources-ltd/7.JPG')}/>
                 </div>   
                 <div className="col-md-6 p-4">
                     <h2 className='heading'>Mission to Iyala Community, Kogi State.</h2>
@@ -64,7 +64,7 @@ const Projects = () => {
             </div>
             <div className="row">
                 <div className="col-md-6">
-                    <img src={require('../imgs/tierra-green-resources-ltd/6.jpg')}/>
+                    <img src={require('../imgs/tierra-green-resources-ltd/6.JPG')}/>
                 </div>   
                 <div className="col-md-6 p-4">
                     <h2 className='heading'>Mission to Apo, F.C.T, Abuja</h2>

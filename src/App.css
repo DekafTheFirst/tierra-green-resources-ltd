@@ -20,10 +20,10 @@ body {
     --cl--1--: #fff;
     --cl--2--: #6B8E23;
     --cl--3--: #DAA520;
-    --cl--4--: #E2725B;
+    --cl--4--: #DE5F45;
     --cl--5--: #87CEEB;
-    --cl--6--: #87CEEB;
-    --cl--7--: #d3d3d3;
+    --cl--6--: #666;
+    --cl--7--: #e5e5e5;
     --cl--8--: #000;
 
 
@@ -43,6 +43,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-weight: 700;
     text-transform: capitalize;
     margin: 0;
 }
@@ -130,14 +131,14 @@ ul {
 
 section {
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 75px;
     padding: 50px 0;
 }
 
 
 
 .section-heading{
-    color: var(--cl--5--);
+    color: var(--cl--3--);
     font-weight: 800;
 }
 
@@ -160,14 +161,15 @@ section {
 .page-btn-2 {
     padding: 8px 32px;
     border-radius: 25px;
-    border: 2px solid var(--cl--4--);
-    color: var(--cl--4--);
+    border: 2px solid var(--cl--3--);
+    color: var(--cl--3--);
     margin-right: auto;
 }
 
 .page-btn-2:hover {
-    background: var(--cl--4--);
+    background: var(--cl--3--);
     color: var(--cl--1--);
+    transition: all .3s;
 }
 
 .bg-gray{
@@ -303,6 +305,7 @@ section {
     background-size: cover;
     display: flex;
     margin-top: 0;
+    margin-bottom: 0;
     padding: 0px;
     position: relative;
     overflow: hidden;
@@ -387,21 +390,11 @@ section {
 
 
 
-.welcome h2 {
-    text-transform: none;
-    text-align: center;
-    line-height: 1.25;
-}
-
-.welcome p {
-    padding: 10px;
-    text-align: center;
-}
 
 
 /* Reputation */
 .reputation {
-
+    padding: 100px 0;
 }
 
 .reputation .images-row {
@@ -486,35 +479,11 @@ section {
 }
 
 
-
-
-
-
-
-.home-about-us .header-image{
-    position: relative;
-}
-
-.home-about-us .header-image .img-wrapper{
-    width: 90%;
-}
-
 .home-about-us .header-image img{
     height: 100%;
 }
 
-.home-about-us .header-image .img-wrapper:first-child{
-    border-right: 10px solid var(--cl--1--);
-    border-top: 10px solid var(--cl--1--);
-}
 
-
-.home-about-us .header-image .img-wrapper:last-child{
-    position: absolute;
-    right: 0;
-    top: -45px;
-    z-index: -1;
-}
 
 .home-about-us .page-btn-2{
     border-radius: 10px;
@@ -524,52 +493,6 @@ section {
     width: 100%;
     text-align: center;
 }
-
-.services .cards{
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    justify-content: center;
-}
-
-.services .card-title {
-    font-size: 16px;
-}
-
-.services .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 16px;
-}
-
-.services .card-body .card-title {
-    margin-bottom: 15px;
-}
-
-
-.services .card{
-    height: 480px;
-    width: 320px;
-    border-radius: 15px;
-    background: rgba(226, 242, 207, 0.42);
-    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
-}
-
-.services .card-img-top {
-    height: 200px;
-    width: 350px;
-    object-fit: cover;
-    object-position: center;
-}
-
-.services .card-btn {
-    margin-right: auto;
-    margin-top: auto;
-
-}
-
 
 
 /* Swiper */
@@ -642,6 +565,12 @@ section {
 .about-us .accordion-body ul li {
     margin-bottom: 15px;
 } 
+
+.about-us .accordion-body ul li span {
+    font-weight: 600;
+} 
+
+
 
 .about-us .accordion-button:not(.collapsed)  {
     background-color: var(--cl--3--);
@@ -752,7 +681,7 @@ section {
 }
 
 .missions .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/33.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/3.JPG");
     background-position: center center;
 }
 
@@ -777,7 +706,7 @@ section {
 
 /* Join Us */
 .join-us .banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/19.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/4.JPG");
     background-position: 40% 35%;
 }
 /* End Join Us */
@@ -787,7 +716,7 @@ section {
 /* Donate */
 
 .donate .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/45.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/5.JPG");
     background-position: 40% 35%;
 
 }
@@ -800,7 +729,7 @@ section {
 /* Contact */
 
 .contact-page .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/7.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/7.JPG");
     background-position: 50% 50%;
 
 }
@@ -868,8 +797,7 @@ footer {
     justify-content: center;
     padding-top: 4em;
     padding-bottom: 3em;
-    background: var(--cl--3--);
-
+    background: var(--cl--7--);
 }
 
 
@@ -880,7 +808,7 @@ footer {
 
 
 footer h5 {
-    color: var(--cl--1--);
+    color: var(--cl--8--);
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -892,12 +820,13 @@ footer .link-category {
 }
 
 footer .link-category a {
-    color: var(--cl--2--);
+    font-size: 14px;
+    color: var(--cl--6--);
     margin-bottom: 10px;
 }
 
 footer .link-category a:hover {
-    color: var(--cl--1--);
+    color: var(--cl--8--);
 }
 
 
@@ -920,7 +849,7 @@ footer .form-container input{
 
 
 footer .page-btn {
-    background-color: #FF9800;
+    background-color: var(--cl--4--);
     border: none;
     color: var(--cl--1--);
     border-radius: 5px;
@@ -928,7 +857,7 @@ footer .page-btn {
 }
 
 footer .page-btn:hover {
-background-color: #F57C00;
+background-color: #E2725B;
 }
 
 
@@ -957,13 +886,18 @@ background-color: #F57C00;
 }
 
 .company-info a {
-    color: #FF9800;
+    color: var(--cl--2--);
 }
 
 .company-info p{
         margin-bottom: 10px;
-        color: var(--cl--1--);
+        color: var(--cl--8--);
 }
+
+.company-info p.address span{
+    text-transform: uppercase;
+}
+
 
 
 
@@ -972,17 +906,10 @@ background-color: #F57C00;
     padding-top: 3em;
     display: flex;
     align-items: center;
-    border-top: 2px solid var(--cl--2--);
+    border-top: 2px solid var(--cl--8--);
     justify-content: center;
 }
 
-.copy-right .copy-right-btn {
-    margin-left: auto;
-    padding: 10px 23px ;
-    color: var(--cl--1--);
-    background-color: var(--cl--2--);
-    text-wrap: nowrap;
-}
 
 .copy-right a:hover {
     background-color: #0f1114;
@@ -991,7 +918,7 @@ background-color: #F57C00;
 
 .copy-right p {
     font-size: 14px;
-    color: var(--cl--2--);
+    color: var(--cl--6--);
     padding-left: 10px;
 }
 
@@ -1087,6 +1014,9 @@ background-color: #F57C00;
 
     .navbar .nav-item:last-child a:hover{
         border: none;
+        color: var(--cl--1--);
+        transition: .3s;
+
     }
 
     
@@ -1253,16 +1183,6 @@ background-color: #F57C00;
         animation: translucentSlide 1.5s ease 1;
     }
 
-    .welcome h2 {
-        text-align: start;
-        line-height: 1.25;
-        margin-right: auto;
-    }
-    
-    .welcome p {
-        padding: 10px;
-        text-align: left;
-    }
     
 
     
@@ -1294,7 +1214,7 @@ background-color: #F57C00;
     }
     .home-about-us .container-fluid > .row{
         align-items: end;
-        flex-direction: row-reverse;
+        flex-direction: reverse;
     }
 
     .home-about-us .container-fluid > .row > div {

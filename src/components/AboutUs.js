@@ -22,26 +22,19 @@ const AboutUs = () => {
                 <div className="col-12 col-md-6">
                     <h2 className='heading'>Our Story</h2>
                     <p className='body-text'>
-                        Established in 2018, Grace Medical
-                        Outreach Intl was born from a shared
-                        belief in the healing power of grace and
-                        the transformative love of Jesus Christ.
-                        What started as a collective vision has
-                        grown into a steadfast commitment to
-                        combining medical care with God's grace,
-                        reaching far and wide to uplift lives.
+                        From our humble beginnings, Terria Green has grown into a prominent player in the agricultural and real estate sectors. Our story is woven with the threads of dedication, hard work, and a deep-rooted belief that the right blend of nature and progress can cultivate a thriving future.
                     </p>
                 </div>
 
                 <div className="col-12 col-md-6">
-                    <img src={require('../imgs/tierra-green-resources-ltd/45.JPG')}/>
+                    <img src={require('../imgs/tierra-green-resources-ltd/4.JPG')}/>
                 </div>
             </div>
             <div className="row align-items-start">
                 <div className="col-12 col-md-6">
                     <h2 className='heading'>Our Mission</h2>
                     <p className='body-text'>
-                        At the core of Grace Medical Outreach Intl is a dedication to providing holistic and compassionate healthcare. Our mission extends beyond treating physical ailments, embracing the emotional and spiritual dimensions of health. Compassion, excellence, faith, and integrity are the pillars that guide our every endeavor.
+                        To promote sustainable growth, empower clients, and contribute to the development of the agricultural and real estate industries in Nigeria.
                     </p>
                 </div>
                 <div className="col-12 col-md-6 justify-content-start">
@@ -53,7 +46,14 @@ const AboutUs = () => {
                             </button>
                             </h2>
                             <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> className. This is the first item's accordion body.</div>
+                                <div className="accordion-body">
+                                    <ul>
+                                        <li><span>Excellence:</span> We are committed to delivering services of the highest standards, always striving for excellence in every aspect of our operations.</li>
+                                        <li><span>Innovation:</span> Embracing innovation is at the core of what we do, ensuring that our solutions meet the evolving needs of our clients and industries.</li>
+                                        <li><span>Sustainability:</span> Environmental responsibility is woven into the fabric of our company. We aim to create a lasting impact through sustainable practices in farming and real estate development.</li>
+                                        <li><span>Integrity:</span> We conduct our business with integrity, honesty, and transparency, fostering trust with our clients, partners, and stakeholders.</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div className="accordion-item">
@@ -64,7 +64,7 @@ const AboutUs = () => {
                             </h2>
                             <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                             <div className="accordion-body">
-                                <p>Reaching the less priviledged with the love of God through Medical and other social amenities.</p>
+                                <p>To be a leading force in sustainable farming, real estate development, and consultancy services, setting industry benchmarks and fostering a positive impact on the environment and communities.</p>
                             </div>
                             </div>
                         </div>
@@ -77,11 +77,10 @@ const AboutUs = () => {
                             <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body">
                                     <ul>
-                                        <li>To provide free comprehensive health care to citizens in our communities, especially the less priviledged.</li>
+                                        <li><span>Excellence:</span> We are committed to delivering services of the highest standards, always striving for excellence in every aspect of our operations.</li>                                        
                                         <li>To initiate and support free community development projects such as, water, electricity, health centeres schools, etc.</li>
                                         <li>To engage in rural evangelism and other spiritual support programmes based on the bible.</li>
                                         <li>To promote advocacy against communicable and non-communicable diseases such as HIV-AIDS, Cholera, Measles, Meningitis, Lassa Fever, Ebola, Tuberculosis, Hepatitis, Malaria, Drug Abuse, Hypertension, Diabetes, Sickle Cell Disease, in line with sustainable development goals.</li>
-
                                     </ul>
                                 </div>
                             </div>
@@ -98,7 +97,7 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img src={require('../imgs/tierra-green-resources-ltd/9.jpg')}/>
+                    <img src={require('../imgs/tierra-green-resources-ltd/9.JPG')}/>
                 </div>                
             </div>
 
@@ -110,7 +109,7 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img src={require('../imgs/tierra-green-resources-ltd/32.JPG')}/>
+                    <img src={require('../imgs/tierra-green-resources-ltd/2.JPG')}/>
                 </div>                
             </div>
 
@@ -122,7 +121,7 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img src={require('../imgs/tierra-green-resources-ltd/25.JPG')}/>
+                    <img src={require('../imgs/tierra-green-resources-ltd/11.JPG')}/>
                 </div>                
             </div>
 
@@ -137,7 +136,7 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img src={require('../imgs/tierra-green-resources-ltd/27.JPG')}/>
+                    <img src={require('../imgs/tierra-green-resources-ltd/11.JPG')}/>
                 </div>                
             </div>
 
