@@ -39,6 +39,20 @@ const AboutUs = () => {
                 </div>
                 <div className="col-12 col-md-6 justify-content-start">
                     <div className="accordion accordion-flush" id="accordionFlushExample">
+                        
+                        <div className="accordion-item">
+                            <h2 className="accordion-header">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                OUR VISION
+                            </button>
+                            </h2>
+                            <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div className="accordion-body">
+                                <p>To be a leading force in sustainable farming, real estate development, and consultancy services, setting industry benchmarks and fostering a positive impact on the environment and communities.</p>
+                            </div>
+                            </div>
+                        </div>
+
                         <div className="accordion-item">
                             <h2 className="accordion-header">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -58,30 +72,18 @@ const AboutUs = () => {
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header">
-                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                OUR VISION
-                            </button>
-                            </h2>
-                            <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div className="accordion-body">
-                                <p>To be a leading force in sustainable farming, real estate development, and consultancy services, setting industry benchmarks and fostering a positive impact on the environment and communities.</p>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="accordion-item">
-                            <h2 className="accordion-header">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                 OUR OBJECTIVES
                             </button>
                             </h2>
                             <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body">
-                                    <ul>
-                                        <li><span>Excellence:</span> We are committed to delivering services of the highest standards, always striving for excellence in every aspect of our operations.</li>                                        
-                                        <li>To initiate and support free community development projects such as, water, electricity, health centeres schools, etc.</li>
-                                        <li>To engage in rural evangelism and other spiritual support programmes based on the bible.</li>
-                                        <li>To promote advocacy against communicable and non-communicable diseases such as HIV-AIDS, Cholera, Measles, Meningitis, Lassa Fever, Ebola, Tuberculosis, Hepatitis, Malaria, Drug Abuse, Hypertension, Diabetes, Sickle Cell Disease, in line with sustainable development goals.</li>
-                                    </ul>
+                                    <ol>
+                                        <li><span>Sustainable Agriculture Practices:</span> Implement and promote environmentally friendly and sustainable farming practices, minimizing ecological impact and fostering long-term soil health.</li>                                        
+                                        <li><span>Real Estate Excellence:</span> Develop and deliver high-quality real estate projects that meet the needs and aspirations of our clients, contributing to the growth and aesthetic improvement of communities.</li>                                        
+                                        <li><span>Client Empowerment:</span> Empower clients with knowledge and expertise in farming and real estate through personalized consultancy services, ensuring informed decision-making and successful outcomes.</li>                                        
+                                        <li><span>Innovation and Research:</span> Foster a culture of innovation and continuous improvement, staying at the forefront of industry trends and adopting cutting-edge technologies in agriculture, real estate, and consultancy.</li>                                        
+                                    </ol>
                                 </div>
                             </div>
                         </div>                   
@@ -91,9 +93,9 @@ const AboutUs = () => {
 
             <div className="row">
                 <div className="col-12 col-md-6">
-                    <h2 className='heading'>Holistic Approach to Healthcare</h2>
+                    <h2 className='heading'>Cultivating Growth in Agriculture</h2>
                     <p className='body-text'>
-                        What makes us unique is our holistic approach to healthcare. Recognizing the inherent worth of each individual, our team of medical professionals, chaplains, and support staff collaborates to offer comprehensive medical services, spiritual support, and emotional healing.                    
+                        Terria Green is your trusted partner in cultivating success. Our comprehensive approach to farming not only boosts agricultural outputs but also contributes to the overall well-being of the communities we serve.                    
                     </p>
                 </div>
                 <div className="col-12 col-md-6">
@@ -103,9 +105,9 @@ const AboutUs = () => {
 
             <div className="row">
                 <div className="col-12 col-md-6">
-                    <h2 className='heading'>Serving Beyond Boundaries</h2>
+                    <h2 className='heading'>Crafting Spaces, Building Dreams in Real Estate</h2>
                     <p className='body-text'>
-                        From local communities to international outreach programs, Grace Medical Outreach Intl extends its healing touch to diverse corners of the world. Through medical clinics, health education initiatives, and responses to global health crises, we strive to be the hands and feet of Jesus, reaching those who need it most.
+                        Our real estate ventures are a testament to quality, design, and enduring value. We specialize in developing thoughtfully crafted projects that redefine living and working spaces.
                     </p>
                 </div>
                 <div className="col-12 col-md-6">
@@ -113,37 +115,25 @@ const AboutUs = () => {
                 </div>                
             </div>
 
-            <div className="row">
-                <div className="col-12 col-md-6">
-                    <h2 className='heading'>Christian Values in Action</h2>
-                    <p className='body-text'>
-                        Grace Medical Outreach Intl is more than an organization; it's a living embodiment of Christian values. Our chaplains play an integral role, providing spiritual support, counseling, and prayer to those seeking solace and understanding amidst their healthcare journey.
-                    </p>
-                </div>
-                <div className="col-12 col-md-6">
-                    <img src={require('../imgs/tierra-green-resources-ltd/11.JPG')}/>
-                </div>                
-            </div>
+            
 
             <div className="row">
-                <div className="col-12 col-md-6">
-                    <h2 className='heading'>Join Us in the Journey</h2>
+                <div className="col-12">
+                    <h2 className='heading'>Join Us in Cultivating Success</h2>
                     <p className='body-text'>
-                        As Grace Medical Outreach Intl continues to grow, we invite you to be a part of this meaningful journey. Whether you are a healthcare professional eager to make a difference, a supporter looking to contribute, or an individual in need of care, our organization is a welcoming community where everyone is valued.
+                        As we continue to grow and evolve, we invite you to join us on this journey of sustainable growth and prosperity. Whether you are a farmer seeking innovative solutions, a homeowner envisioning your dream space, or a business owner navigating complex landscapes, Terria Green Resources Ltd. is your trusted partner.
                     </p>
-                    <p className='body-text'>
-                        Thank you for considering Grace Medical Outreach Intl as a partner in health, healing, and faith. Together, let's extend God's grace through our hands, hearts, and the transformative power of compassionate healthcare.
+                    <p className='body-text mt-3'>
+                        <Link className="text-warning" to="/contact">Contact us</Link> to begin a journey where growth meets sustainability, and dreams find a home. Welcome to Terria Green Resources Ltd.
                     </p>
                 </div>
-                <div className="col-12 col-md-6">
-                    <img src={require('../imgs/tierra-green-resources-ltd/11.JPG')}/>
-                </div>                
+                              
             </div>
 
             
             <div className="row our-team">
-                <h6 className='section-heading'>Our Team</h6>
-                <h2>Meet The Vessels God Is Using</h2>
+                <h6 className='section-heading'>Meet the Visionaries</h6>
+                <h2>Our Team at Terria Green Resources Ltd.</h2>
                 <div className="wrapper">
                     <div className="cards">
                         <div className="card">
@@ -151,225 +141,40 @@ const AboutUs = () => {
                                 <img className="card-img" src={require('../imgs/people/kefas-jibir.png')} alt="board of directors image"/>
                             </div>
                             <div className="card-body">
-                                <div className="logo"><img src={require("../imgs/tierra-green-resources-ltd/chairman.png")} alt="" /></div>
                                 <div className="content">
-                                    <span className='name'>Dr Kefas Jibir, MBBS, FWACP</span>
-                                    <h5>Chairman</h5>
+                                    <p className='name'>Dr Kefas Jibir, MBBS, FWACP</p>
+                                    <span className='role'>Chairman</span>
                                 </div>
-                                <div className="media-links">
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/facebook.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/twitter.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/instagram.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/linkedin.png")} alt=""/>
-                                    </Link>
-                                </div>
+                                
                                 <p></p>
                             </div>
-                        </div>
+                        </div> 
                         <div className="card">
                             <div className="img-wrapper">
-                                <img className="card-img" src={require('../imgs/tierra-green-resources-ltd/person.png')} alt="board of directors image"/>
+                                <img className="card-img" src={require('../imgs/people/4.jpg')} alt="board of directors image"/>
                             </div>
                             <div className="card-body">
-                                <div className="logo"><img src={require("../imgs/tierra-green-resources-ltd/secretary.png")} alt="" /></div>
                                 <div className="content">
-                                    <span className='name'>Pharm Emmanuel Adaji</span>
-                                    <h5>General Secretary</h5>
+                                    <p className='name'>Dr Kefas Jibir, MBBS, FWACP</p>
+                                    <span className='role'>Chairman</span>
                                 </div>
-                                <div className="media-links">
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/facebook.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/twitter.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/instagram.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/linkedin.png")} alt=""/>
-                                    </Link>
-                                </div>
+                                
                                 <p></p>
                             </div>
-                        </div>
+                        </div> 
                         <div className="card">
                             <div className="img-wrapper">
-                                <img className="card-img" src={require('../imgs/tierra-green-resources-ltd/person.png')} alt="board of directors image"/>
+                                <img className="card-img" src={require('../imgs/people/kefas-jibir.png')} alt="board of directors image"/>
                             </div>
                             <div className="card-body">
-                                <div className="logo"><img src={require("../imgs/tierra-green-resources-ltd/drugs.png")} alt="" /></div>
                                 <div className="content">
-                                    <span className='name'>Pharm Toyin Bada</span>
-                                    <h5>HOD Pharmacy/Treasurer</h5>
+                                    <p className='name'>Dr Kefas Jibir, MBBS, FWACP</p>
+                                    <span className='role'>Chairman</span>
                                 </div>
-                                <div className="media-links">
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/facebook.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/twitter.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/instagram.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/linkedin.png")} alt=""/>
-                                    </Link>
-                                </div>
+                                
                                 <p></p>
                             </div>
-                        </div>
-                        <div className="card">
-                            <div className="img-wrapper">
-                                <img className="card-img" src={require('../imgs/tierra-green-resources-ltd/person.png')} alt="board of directors image"/>
-                            </div>
-                            <div className="card-body">
-                                <div className="logo"><img src={require("../imgs/tierra-green-resources-ltd/counseling.png")} alt="" /></div>
-                                <div className="content">
-                                    <span className='name'>Pst Davidson Iheanyichukwu</span>
-                                    <h5>HOD Counselling</h5>
-                                </div>
-                                <div className="media-links">
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/facebook.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/twitter.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/instagram.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/linkedin.png")} alt=""/>
-                                    </Link>
-                                </div>
-                                <p></p>
-                            </div>
-                        </div>
-
-
-                        <div className="card">
-                            <div className="img-wrapper">
-                                <img className="card-img" src={require('../imgs/tierra-green-resources-ltd/person.png')} alt="board of directors image"/>
-                            </div>
-                            <div className="card-body">
-                                <div className="logo"><img src={require("../imgs/tierra-green-resources-ltd/prayer.png")} alt="" /></div>
-                                <div className="content">
-                                    <span className='name'>Pst Tukura James</span>
-                                    <h5>HOD Prayers</h5>
-                                </div>
-                                <div className="media-links">
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/facebook.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/twitter.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/instagram.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/linkedin.png")} alt=""/>
-                                    </Link>
-                                </div>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div className="card">
-                            <div className="img-wrapper">
-                                <img className="card-img" src={require('../imgs/tierra-green-resources-ltd/person.png')} alt="board of directors image"/>
-                            </div>
-                            <div className="card-body">
-                                <div className="logo"><img src={require("../imgs/tierra-green-resources-ltd/it-department.png")} alt="" /></div>
-                                <div className="content">
-                                    <span className='name'>Engr Peter Echiye(MCPN)</span>
-                                    <h5>HOD Media/IT/Public Relation</h5>
-                                </div>
-                                <div className="media-links">
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/facebook.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/twitter.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/instagram.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/linkedin.png")} alt=""/>
-                                    </Link>
-                                </div>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div className="card">
-                            <div className="img-wrapper">
-                                <img className="card-img" src={require('../imgs/tierra-green-resources-ltd/person.png')} alt="board of directors image"/>
-                            </div>
-                            <div className="card-body">
-                                <div className="logo"><img src={require("../imgs/tierra-green-resources-ltd/planning.png")} alt="" /></div>
-                                <div className="content">
-                                    <span className='name'>Moses Ogebe</span>
-                                    <h5>HOD Planning/Mobilization</h5>
-                                </div>
-                                <div className="media-links">
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/facebook.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/twitter.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/instagram.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/linkedin.png")} alt=""/>
-                                    </Link>
-                                </div>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div className="card">
-                            <div className="img-wrapper">
-                                <img className="card-img" src={require('../imgs/tierra-green-resources-ltd/person.png')} alt="board of directors image"/>
-                            </div>
-                            <div className="card-body">
-                                <div className="logo"><img src={require("../imgs/tierra-green-resources-ltd/legal.png")} alt="" /></div>
-                                <div className="content">
-                                    <span className='name'>Bar Emeka Alioha</span>
-                                    <h5>Legal Adviser</h5>
-                                </div>
-                                <div className="media-links">
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/facebook.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/twitter.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/instagram.png")} alt=""/>
-                                    </Link>
-                                    <Link to="#">
-                                        <img className="media-icon" src={require("../icons/linkedin.png")} alt=""/>
-                                    </Link>
-                                </div>
-                                <p></p>
-                            </div>
-                        </div>
-
-
-                        
+                        </div>  
                     </div>
                 </div>
                 

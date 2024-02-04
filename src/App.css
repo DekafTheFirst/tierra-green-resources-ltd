@@ -562,11 +562,11 @@ section {
 }
 
 
-.about-us .accordion-body ul li {
+.about-us .accordion-body li {
     margin-bottom: 15px;
 } 
 
-.about-us .accordion-body ul li span {
+.about-us .accordion-body li span {
     font-weight: 600;
 } 
 
@@ -587,7 +587,7 @@ section {
 
 .about-us .our-team .wrapper {
     display: flex;
-    justify-items: center;
+    justify-content: center;
 }
 
 .about-us .our-team .cards {
@@ -600,24 +600,19 @@ section {
 }
 
 .about-us .our-team .card {
-    width: 300px;
-    height: 470px;
-    background-color: var(--cl--4--);
-    overflow: hidden;
+    flex-basis: 250px;
     border: none;
 }
 
-.about-us .our-team .card *{
-    color: var(--cl--2--);
-}
+
 
 
 .about-us .our-team .card .img-wrapper {
-    background-color: var(--cl--2--);
+    background-color: var(--cl--7--);
 }
 
 .about-us .our-team .card .card-img {
-    height: 220px;
+    height: 250px;
     object-fit: cover;
     object-position: top;
     border-radius:0;
@@ -626,47 +621,37 @@ section {
 
 .about-us .our-team .card-body {
     position: relative;
-    padding: 0 15px;
 }
 
 
-.about-us .our-team .card .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -35px;
-    width: 65px;
-    height: 65px;
-    padding: 5px;
-    border-radius: 50%;
-    background-color: var(--cl--1--);
-}
 
-.about-us .our-team .card .logo img{
-    width: 70%;
-    height: 70%;
-}
+
+
+
+
+
+
+
 
 .about-us .our-team .card .content {
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-}
-
-.about-us .our-team .card .name {
-    border-bottom: 3px solid var(--cl--2--);
-    width: fit-content;
-    padding-bottom: 8px;
 }
 
 
-.about-us .our-team .card .media-links {
-    position: absolute;
-    bottom: 0;
-
+.about-us .our-team .card-body .name{
+    font-weight: 600;
+    
 }
+
+.about-us .our-team .card-body .role{
+    line-height: 0.8;
+    color: var(--cl--6--);  
+    font-size: 14px;  
+}
+
+
+
 
 /* End About Us */
 
