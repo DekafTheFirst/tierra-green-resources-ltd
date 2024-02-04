@@ -27,7 +27,7 @@ const AboutUs = () => {
                 </div>
 
                 <div className="col-12 col-md-6">
-                    <img src={require('../imgs/tierra-green-resources-ltd/4.JPG')}/>
+                    <img src={require('../imgs/tierra-green-resources-ltd/farming/4.JPG')}/>
                 </div>
             </div>
             <div className="row align-items-start">
@@ -99,7 +99,7 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img src={require('../imgs/tierra-green-resources-ltd/9.JPG')}/>
+                    <img src={require('../imgs/tierra-green-resources-ltd/farming/9.JPG')}/>
                 </div>                
             </div>
 
@@ -111,7 +111,7 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img src={require('../imgs/tierra-green-resources-ltd/2.JPG')}/>
+                    <img src={require('../imgs/tierra-green-resources-ltd/farming/2.JPG')}/>
                 </div>                
             </div>
 

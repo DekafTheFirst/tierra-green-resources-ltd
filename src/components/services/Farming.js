@@ -3,62 +3,42 @@ import { Link } from 'react-router-dom';
 
 const Farming = () => {
   return (
-    <div>
-      <h2 className='title'>Borehole Drilling Services</h2>
-      <img src={require('../../imgs/tierra-green-resources-ltd/1.JPG')}/>
-      <p className='body-text'>Discover reliable and efficient borehole drilling solutions with Michgid Global Resources Ltd. Our borehole drilling services are designed to provide access to clean and sustainable water sources, ensuring a dependable supply for residential, commercial, and industrial needs. With cutting-edge technology and a commitment to excellence, we are your trusted partner in meeting water requirements.</p>
+    <div className='service-details'>
+      <h2 className='title'>Farming Services</h2>
+      <img src={require('../../imgs/tierra-green-resources-ltd/farming/1.JPG')}/>
+      <p className='body-text'>At Tierra Green Resources Ltd., our farming services are rooted in a commitment to sustainable practices, innovation, and the pursuit of agricultural excellence. Whether you are a seasoned farmer or a newcomer to the field, our comprehensive suite of services is designed to meet your needs and contribute to the success of your agricultural ventures.</p>
       
-      <div className="subservice">
-        <h3 className='heading'>Residential Borehole Drilling</h3>
-        <span className='subheading'>Accessible Water for Homes:</span>
+      <div className="details">
+        <span className='subheading'>Precision Cultivation:</span>
         <p className='body-text'>
-          Michgid Global Resources Ltd. understands the importance of having a secure and accessible water source for your home. Our residential borehole drilling services cater to homeowners looking to invest in a reliable and independent water supply. We offer personalized solutions based on your specific water needs, ensuring a seamless and efficient drilling process.        
+        Experience the next level of farming with our precision cultivation techniques. We leverage cutting-edge technologies and data-driven approaches to optimize crop yields, minimize resource usage, and enhance overall efficiency. From soil analysis to crop monitoring, we ensure that every aspect of your cultivation process is finely tuned for success.        </p>
+        
+        <img src={require('../../imgs/tierra-green-resources-ltd/farming/1.JPG')}/>
+
+        <span className='subheading'>Livestock Management:</span>
+        <p className='body-text'>
+          Our expertise in livestock management extends to all aspects of animal husbandry. From selecting and breeding to nutrition planning and health monitoring, we prioritize the well-being of your livestock. Whether you're involved in meat or dairy production, our services are tailored to ensure the health, productivity, and sustainability of your livestock operations.        
         </p>
 
-        <span className='subheading'>Site Assessment and Planning:</span>
+        <span className='subheading'>Agro-Consultancy Services:</span>
         <p className='body-text'>
-          Our team conducts thorough site assessments to determine the best location for drilling. We take into account geological conditions, water quality considerations, and local regulations. Michgid Global Resources Ltd. employs advanced technology to provide accurate data, allowing us to plan and execute residential borehole drilling projects with precision        
+          Navigate the complexities of modern agriculture with our expert agro-consultancy services. Our seasoned consultants bring years of experience and a deep understanding of the agricultural landscape to the table. Whether you need guidance on crop selection, market trends, or sustainable farming practices, we provide insights that empower you to make informed decisions and drive success in your farming endeavors.        
         </p>
+
+        <span className='subheading'>Sustainable Farming Practices:</span>
+        <p className='body-text'>
+          Tierra Green Resources Ltd. is committed to environmentally responsible farming. We prioritize sustainable practices that not only enhance productivity but also contribute to the long-term health of the land. From organic farming techniques to eco-friendly pest control, we strive to minimize our ecological footprint while maximizing the benefits for farmers and the environment.        
+        </p>
+
+        
       </div>
       
-      <img src={require('../../imgs/tierra-green-resources-ltd/1.JPG')}/>
 
-
-      <div className="subservice">
-        <h3 className='heading'>Commercial and Industrial Borehole Solutions</h3>
-        
-        <span className='subheading'>Sustainable Water Supply:</span>
-        <p className='body-text'>
-          For businesses and industries, having a sustainable water supply is crucial for operations. Michgid Global Resources Ltd. specializes in providing comprehensive borehole solutions tailored to the unique needs of commercial and industrial clients. Whether you require water for manufacturing processes, irrigation, or general operations, our expertise ensures a reliable and cost-effective water source.
-        </p>
-
-        <span className='subheading'>Customized Water Treatment:</span>
-        <p className='body-text'>
-          In addition to drilling, we offer customized water treatment solutions to meet the specific quality requirements of your industry. Our team analyzes water composition and implements appropriate treatment processes to ensure that the water extracted from boreholes meets regulatory standards and is suitable for your intended use. 
-        </p>      
-      </div>
-
-
-
-      <div className="subservice">
-        <h3 className='heading'>Agricultural Borehole Drilling</h3>
-        
-        <span className='subheading'>Optimizing Irrigation:</span>
-        <p className='body-text'>
-          Agricultural success depends on efficient irrigation, and Michgid Global Resources Ltd. is here to support farmers with reliable borehole drilling services. Our agricultural borehole solutions are designed to optimize irrigation systems, providing a consistent water supply for crops. We work closely with farmers to understand their irrigation needs and implement solutions that enhance crop yields.        
-        </p>        
-        <span className='subheading'>Cost-Effective Water Management:</span>
-        <p className='body-text'>
-          We understand the economic considerations in agriculture. Our team focuses on cost-effective water management solutions that maximize the efficiency of your irrigation systems, reduce water wastage, and contribute to the overall sustainability of agricultural practices.
-        </p>      
-      </div>
-
-      <img src={require('../../imgs/tierra-green-resources-ltd/1.JPG')}/>
+      <img src={require('../../imgs/tierra-green-resources-ltd/farming/1.JPG')}/>
 
       <div className="contact">
-        <h3 className='heading'>Contact Michgid Global Resources Ltd. for Your Borehole Drilling Needs</h3>
         <p className='body-text'>
-          Ready to secure a reliable and sustainable water source for your property or project? <Link to='/contact' className='contact-us-link'>Contact Us</Link> today to discuss your borehole drilling requirements, obtain detailed insights through our geotechnical investigations, and benefit from our expertise in water solutions. We are dedicated to delivering water infrastructure that meets the highest standards of quality, efficiency, and environmental responsibility.
+          Join us in cultivating a future where agriculture thrives in harmony with nature. <Link to='/contact' className='in-text-link'>Contact Us</Link> and embark on a journey of innovation, sustainability, and agricultural success with Tierra Green Resources Ltd.
         </p>
       </div>
     </div>

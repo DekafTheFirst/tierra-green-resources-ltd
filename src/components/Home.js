@@ -42,7 +42,7 @@ const Home = () => {
 
             <div className="col-xl-6 d-flex justify-content-center">
               <div className="header-image">
-                  <img src={require('../imgs/tierra-green-resources-ltd/1.JPG')} alt="" />
+                  <img src={require('../imgs/tierra-green-resources-ltd/farming/1.JPG')} alt="" />
               </div>
             </div>
 
@@ -56,7 +56,7 @@ const Home = () => {
                   </p>
                   <div className="row align-items-center mt-3 mb-4">
                     <div className="col-6 col-sm-4">
-                      <img src={require("../imgs/tierra-green-resources-ltd/1.JPG")} alt="" />
+                      <img src={require("../imgs/tierra-green-resources-ltd/farming/1.JPG")} alt="" />
                     </div>
                     <div className="col-6 col-sm-7">
                       <p className="ps-3">We cultivate more than just crops; we nurture sustainable growth and build enduring spaces.
@@ -78,11 +78,11 @@ const Home = () => {
         <div className="container-fluid">
           <div className="row images-row ">
             <div className="col-md-5 col-lg-4 right-column">
-                <img className="mb-3" src={require('../imgs/tierra-green-resources-ltd/4.JPG')} alt="" />
+                <img className="mb-3" src={require('../imgs/tierra-green-resources-ltd/farming/4.JPG')} alt="" />
                 <p>Join us in cultivating a world where the bounty of the land meets the foundation of dreams. Welcome to Tierra Green Resources Ltd.</p>
             </div>
             <div className="col-md-7 col-lg-8 left-column">
-                <img src={require('../imgs/tierra-green-resources-ltd/3.JPG')} alt="" />
+                <img src={require('../imgs/tierra-green-resources-ltd/farming/3.JPG')} alt="" />
             </div>
           </div>
 
@@ -160,19 +160,16 @@ const Home = () => {
               modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
               className="mySwiper"
             >
-              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/1.JPG')} /></SwiperSlide>
-              {/* <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/slider/2.jpg')} /></SwiperSlide> */}
-              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/3.JPG')} /></SwiperSlide>
-              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/4.JPG')} /></SwiperSlide>
-              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/5.JPG')} /></SwiperSlide>
-              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/6.JPG')} /></SwiperSlide>
-              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/7.JPG')} /></SwiperSlide>
-              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/8.JPG')} /></SwiperSlide>
-              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/9.JPG')} /></SwiperSlide>
-              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/10.JPG')} /></SwiperSlide>
-              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/11.JPG')} /></SwiperSlide>
-              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/12.JPG')} /></SwiperSlide>
-
+              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/farming/1.JPG')} /></SwiperSlide>
+              {/* <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/farming/slider/2.jpg')} /></SwiperSlide> */}
+              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/farming/5.JPG')} /></SwiperSlide>
+              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/farming/14.jpg')} /></SwiperSlide>
+              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/farming/15.jpg')} /></SwiperSlide>
+              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/farming/6.JPG')} /></SwiperSlide>
+              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/farming/7.JPG')} /></SwiperSlide>
+              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/farming/8.JPG')} /></SwiperSlide>
+              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/farming/9.JPG')} /></SwiperSlide>
+              <SwiperSlide><img src={require('../imgs/tierra-green-resources-ltd/farming/10.JPG')} /></SwiperSlide>
             </Swiper>
             <div className="swiper-custom-pagination"></div>
             </div>

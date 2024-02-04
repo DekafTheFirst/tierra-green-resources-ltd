@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     // <nav className="navbar navbar-expand-md">
     //     <div className="container-fluid">
-    //       <Link className="navbar-brand logo" to="/" onClick={() => setShow(false)}><img src={require("../../imgs/tierra-green-resources-ltd/logo.png")} alt="" /></Link>
+    //       <Link className="navbar-brand logo" to="/" onClick={() => setShow(false)}><img src={require("../../imgs/tierra-green-resources-ltd/farming/logo.png")} alt="" /></Link>
     //       <button className="navbar-toggler" type="button"  onClick={toggleShow}>
     //         <span className="navbar-toggler-icon my-navbar-toggler-icon"></span>
     //       </button>

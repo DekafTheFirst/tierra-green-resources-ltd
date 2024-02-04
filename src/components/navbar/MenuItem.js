@@ -8,13 +8,13 @@ const MenuItem = ({item, show, setShow, navItemSpecial}) => {
     <li className={`nav-item ${navItemSpecial && 'nav-item-special'}`}>
         {item.submenu ? (
             <>
-              <li
+              <span
                 className="nav-link"
                 // aria-expanded={dropdown ? "true" : "false"}
                 onClick={() => setDropdown((prev) => !prev)}
               >
-                {item.title}{" "}
-              </li>
+                {item.title}
+              </span>
               <Dropdown submenus={item.submenu} dropdown={dropdown} />
             </>  
         ):(

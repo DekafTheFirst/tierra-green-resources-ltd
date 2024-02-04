@@ -3,9 +3,14 @@ import { Link } from 'react-router-dom';
 
 import {  useParams, useNavigate } from 'react-router-dom';
 import Farming from './Farming';
+import RealEstate from './RealEstate';
+import Consultancy from './Consultancy';
 
 const pages = [
   {slug:'farming', pageTitle: 'Farming', element: <Farming/>},
+  {slug:'real-estate', pageTitle: 'Real Estate', element: <RealEstate/>},
+  {slug:'consultancy', pageTitle: 'Consultancy', element: <Consultancy/>},
+
 //   {slug: 'commercial-construction', pageTitle: 'Commercial Constr.', element: <CommercialConstruction/>},
 //   {slug: 'road-construction', pageTitle: 'Road Constr.', element: <RoadConstruction/>},
 //   {slug: 'borehole-drilling', pageTitle: 'Borehole Drilling', element: <BoreholeDrilling/>},
@@ -37,14 +42,9 @@ const Services = () => {
           
 
           <div className="container-fluid">
-              <div className="row">
-                  <div className='filter col-lg-3'>
-                      <h3>Services</h3>
-                      <div className="tags">
-                        {pages.map(page => (<button key={page.slug} className={`tag ${slug === page.slug ? 'active' : ''}`} onClick={()=> navigate(`/services/${page.slug}`)}>{page.pageTitle}</button> ))}
-                      </div>
-                  </div>
-                  <div className="article col-lg-9">
+              <div className="row justify-content-center">
+                  
+                  <div className="article col-lg-10">
                     {currentPage}
                   </div>
               </div>

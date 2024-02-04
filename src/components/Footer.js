@@ -62,7 +62,7 @@ const Footer = () => {
 
                     <div className="company-info">
                         <p>Mobile: <Link to="tel:+">+2348033976703</Link></p>
-                        <p>Email: <Link to="mailto:tierragreenresourcesltd@gmail.com">gracemedicaloutreachintl@gmail</Link></p>
+                        <p>Email: <Link to="mailto:tierragreenresourcesltd@gmail.com">tierragreenresourcesltd@gmail</Link></p>
                         <p className='address'>Address: <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatibus vitae omnis atque rem at ipsum qui ex maxime.</span></p>
 
                     </div>
@@ -71,7 +71,7 @@ const Footer = () => {
                 <div className="copy-right mt-3">
                     <Link to="#" className="logo" ><img src={require("../imgs/tierra-green-resources-ltd/logo.png")} alt="logo" className="logo-img" /></Link>
 
-                    <p>Grace Medical Outreach Intl. &copy; 2023, All RIghts Reserved.</p>
+                    <p>Tierra Green Resources Ltd. &copy; 2023, All RIghts Reserved.</p>
                 </div>
                 
         </div>

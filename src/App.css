@@ -277,11 +277,17 @@ section {
     padding: 3px;
     font-size: 14px;
     font-weight: normal;
+
 }
+
+.nav-link.isActuallyActive{
+    color: pink;
+}
+
 .navbar .nav-item {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
 }
 
 
@@ -297,7 +303,7 @@ section {
 /* Slider */
 .hero {
     height: 45vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs/tierra-green-resources-ltd/1.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs/tierra-green-resources-ltd/farming/1.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -524,7 +530,7 @@ section {
 /* About Us Page */
 
 .about-us .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/2.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/farming/2.JPG");
 }
 
 .about-us .row {
@@ -654,7 +660,7 @@ section {
 /* End About Us */
 
 
-/* Missions */
+/* Services */
 
 .services .container-fluid{
     margin-top: 80px;
@@ -664,25 +670,179 @@ section {
 }
 
 .services .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/3.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/farming/3.JPG");
     background-position: center center;
 }
 
 
-.services .row {
-    align-items: center;
-    background-color: var(--cl--2--);
-    flex-direction: row-reverse;
-    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
-
+.services .service-details img {
+    max-height: 500px;
+    object-fit: cover;
 }
-/* End Missions */
 
 
+.page .article .title {
+    margin-bottom: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.page .details {
+    margin-bottom: 40px;
+}
+
+.page .article img {
+    margin-bottom: 30px;
+}
+
+.page .article .heading{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.page .article .subheading{
+    display: block;
+    margin-bottom: 3px;
+    font-style:italic;
+    font-weight: 500;
+}
+
+.page .article .body-text{
+    margin-bottom: 25px;
+}
+
+
+.page .article .contact .in-text-link {
+    font-weight: 500;
+}
+/* End Services */
+
+.projects .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/farming/3.JPG");
+}
+
+
+/* Pages */
+.page .tags{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 10px;
+    width: auto;
+    margin-top: 43px;
+    margin-bottom: 40px;
+}
+
+.page .filter h3 {
+    margin-bottom: 30px;
+}
+
+
+.page .tag {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2.5px solid var(--cl--7--);
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: var(--cl--8--);
+    text-align: start;
+    padding: 7px 0;
+    width: 100%;
+}
+
+
+.page .tag.active{
+    color: var(--cl--3--);
+    transition: all 0.3s;
+}
+
+.page .tag.active::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    background: url('./icons/next.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* .page .tag:hover{
+    color: ;
+} */
+
+/* .page .tag.active {
+    color:  var(--cl--3--);
+} */
+
+.page .images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* .page .images::after {
+    content: "";
+    flex-basis: 350px;
+} */
+
+.page .images .image-container {
+    flex-basis: 100%;
+    
+}
+
+.page .images .image-card {
+    position: relative;
+    cursor: pointer;
+}
+
+.page .images .image-card .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(57, 57, 57, 0.7);
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transform: all 0.2s 0.1s ease-in-out;
+    color: var(--cl--1--);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page .images .image-card .overlay a{
+    color: var(--cl--6--);
+}
+
+.page .images .image-card .overlay a:hover{
+    color: var(--cl--1--);
+}
+
+
+
+.page .images .image-card:hover .overlay{
+    transform: scale(1);
+}
+
+.page .images .image-container .image-card img{
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+/* End Pages */
 
 /* Join Us */
 .join-us .banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/4.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/farming/4.JPG");
     background-position: 40% 35%;
 }
 /* End Join Us */
@@ -692,7 +852,7 @@ section {
 /* Donate */
 
 .donate .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/5.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/farming/5.JPG");
     background-position: 40% 35%;
 
 }
@@ -705,7 +865,7 @@ section {
 /* Contact */
 
 .contact-page .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/7.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./imgs/tierra-green-resources-ltd/farming/7.JPG");
     background-position: 50% 50%;
 
 }
@@ -1019,8 +1179,8 @@ background-color: #E2725B;
     .navbar .nav-item:hover .dropdown {
         display: block;
         position: absolute;
-        top: 45px;
-        padding: 15px 40px;
+        top: 42px;
+        padding: 20px 40px 15px;
         background-color: var(--cl--1--);
         border-radius: 10px;
         margin: 0;
@@ -1076,6 +1236,14 @@ background-color: #E2725B;
         width: 750px;
     }
 
+    .page .images {
+        gap: 0;
+    }
+
+    .page .images .image-container{
+        flex-basis: 50%;
+        padding: 6px;
+    }
 
     footer .container-fluid {
         width: 90%;
@@ -1193,7 +1361,19 @@ background-color: #E2725B;
     }
 
     
+    .page .images{
+        margin-top: 50px;
+    }
 
+    .page .tags{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+
+    .page .tags .tag {
+        text-wrap: nowrap;
+    }
     
 
     /* .hero .hero-content::after{
@@ -1242,6 +1422,19 @@ background-color: #E2725B;
         margin-bottom: 70px;
     }
     
+
+    .page .images .image-container{
+        flex-basis: 33.33% ;
+    }
+
+    .page .images .image-card {
+        height: 190px;
+    }
+
+
+    .page .tag {
+        width: 85%;
+    }
     
     
 }
