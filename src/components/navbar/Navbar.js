@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import Home from '../Home';
 import { menuItemsData } from '../menuItemsData';
+import MenuItem from './MenuItem';
 
 const routes = [
   {name: "home", path: "/", component: <Home />}
@@ -59,27 +60,14 @@ const Navbar = () => {
           </button>
           <div className={`collapse navbar-collapse ${show ? 'show': ''}`} id="navbarNav">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <NavLink to="/" className="nav-link" onClick={()=>{setShow(false)}}>Home</NavLink>
-              </li>
+              {menuItemsData.map((menu, index)=>{
+                return (
+                  <MenuItem item={menu} key={index} show={show} setShow={setShow} navItemSpecial={menu.navItemSpecial}/>
+                )
+              })}
               
-              <li className="nav-item">
-                <NavLink to="/about-us" className="nav-link" onClick={()=>{setShow(false)}}>About Us</NavLink>
-              </li>
               
-              <li className="nav-item">
-                <NavLink to="/services/farming" className="nav-link" onClick={()=>{setShow(false)}}>Services</NavLink>
-              </li>
-
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/join-us" onClick={()=>{setShow(false)}}>Projects</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/contact" onClick={()=>{setShow(false)}}>Gallery</NavLink>
-              </li>
-              <li className="nav-item page-btn-2">
-                <NavLink className="nav-link" to="/donate" onClick={()=>{setShow(false)}}>Contact</NavLink>
-              </li>
+              
             </ul>
           </div>
           

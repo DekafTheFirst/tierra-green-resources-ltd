@@ -5,19 +5,34 @@ export const menuItemsData = [
     }, 
     {
         title: 'About Us',
-        url: 'about-us'
+        url: '/about-us'
     },
     {
         title: 'Services',
-        url: 'services'
+        url: '/services',
+        submenu: [
+            {
+                title: 'Farming',
+                url: 'farming'
+            },
+            {
+                title: 'Real Estate',
+                url: 'real-estate'
+            },
+            {
+                title: 'Consultancy',
+                url: 'consultancy'
+            },
+        ]
     },
     {
         title: 'Projects',
-        url: 'projects'
+        url: '/projects',
     },
     {
         title: 'Contact',
-        url: 'contact'
+        url: '/contact',
+        navItemSpecial: true,
     },
 
 

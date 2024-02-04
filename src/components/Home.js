@@ -50,7 +50,7 @@ const Home = () => {
               <div className="row mt-4">
                 <div className="col-lg-12  content">
                   <h6 className='section-heading' >About Us</h6>
-                  <h2> Welcome to Terria Green Resources Ltd.</h2>
+                  <h2> Welcome to Tierra Green Resources Ltd.</h2>
                   <p>
                    Established in 2013, we are a beacon of excellence in farming, real estate, and expert consultancy services, harmonizing nature and progress for a brighter future.
                   </p>
@@ -79,7 +79,7 @@ const Home = () => {
           <div className="row images-row ">
             <div className="col-md-5 col-lg-4 right-column">
                 <img className="mb-3" src={require('../imgs/tierra-green-resources-ltd/4.JPG')} alt="" />
-                <p>Join us in cultivating a world where the bounty of the land meets the foundation of dreams. Welcome to Terria Green Resources Ltd.</p>
+                <p>Join us in cultivating a world where the bounty of the land meets the foundation of dreams. Welcome to Tierra Green Resources Ltd.</p>
             </div>
             <div className="col-md-7 col-lg-8 left-column">
                 <img src={require('../imgs/tierra-green-resources-ltd/3.JPG')} alt="" />

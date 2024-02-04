@@ -22,7 +22,7 @@ const AboutUs = () => {
                 <div className="col-12 col-md-6">
                     <h2 className='heading'>Our Story</h2>
                     <p className='body-text'>
-                        From our humble beginnings, Terria Green has grown into a prominent player in the agricultural and real estate sectors. Our story is woven with the threads of dedication, hard work, and a deep-rooted belief that the right blend of nature and progress can cultivate a thriving future.
+                        From our humble beginnings, Tierra Green has grown into a prominent player in the agricultural and real estate sectors. Our story is woven with the threads of dedication, hard work, and a deep-rooted belief that the right blend of nature and progress can cultivate a thriving future.
                     </p>
                 </div>
 
@@ -95,7 +95,7 @@ const AboutUs = () => {
                 <div className="col-12 col-md-6">
                     <h2 className='heading'>Cultivating Growth in Agriculture</h2>
                     <p className='body-text'>
-                        Terria Green is your trusted partner in cultivating success. Our comprehensive approach to farming not only boosts agricultural outputs but also contributes to the overall well-being of the communities we serve.                    
+                        Tierra Green is your trusted partner in cultivating success. Our comprehensive approach to farming not only boosts agricultural outputs but also contributes to the overall well-being of the communities we serve.                    
                     </p>
                 </div>
                 <div className="col-12 col-md-6">
@@ -121,10 +121,10 @@ const AboutUs = () => {
                 <div className="col-12">
                     <h2 className='heading'>Join Us in Cultivating Success</h2>
                     <p className='body-text'>
-                        As we continue to grow and evolve, we invite you to join us on this journey of sustainable growth and prosperity. Whether you are a farmer seeking innovative solutions, a homeowner envisioning your dream space, or a business owner navigating complex landscapes, Terria Green Resources Ltd. is your trusted partner.
+                        As we continue to grow and evolve, we invite you to join us on this journey of sustainable growth and prosperity. Whether you are a farmer seeking innovative solutions, a homeowner envisioning your dream space, or a business owner navigating complex landscapes, Tierra Green Resources Ltd. is your trusted partner.
                     </p>
                     <p className='body-text mt-3'>
-                        <Link className="text-warning" to="/contact">Contact us</Link> to begin a journey where growth meets sustainability, and dreams find a home. Welcome to Terria Green Resources Ltd.
+                        <Link className="text-warning" to="/contact">Contact us</Link> to begin a journey where growth meets sustainability, and dreams find a home. Welcome to Tierra Green Resources Ltd.
                     </p>
                 </div>
                               
@@ -132,51 +132,54 @@ const AboutUs = () => {
 
             
             <div className="row our-team">
-                <h6 className='section-heading'>Meet the Visionaries</h6>
-                <h2>Our Team at Terria Green Resources Ltd.</h2>
-                <div className="wrapper">
-                    <div className="cards">
-                        <div className="card">
-                            <div className="img-wrapper">
-                                <img className="card-img" src={require('../imgs/people/kefas-jibir.png')} alt="board of directors image"/>
-                            </div>
-                            <div className="card-body">
-                                <div className="content">
-                                    <p className='name'>Dr Kefas Jibir, MBBS, FWACP</p>
-                                    <span className='role'>Chairman</span>
+                <div className="col-12">
+                    <h6 className='section-heading'>Meet the Visionaries</h6>
+                    <h2>Our Team at Tierra Green Resources Ltd.</h2>
+                    <div className="wrapper">
+                        <div className="cards">
+                            <div className="card">
+                                <div className="img-wrapper">
+                                    <img className="card-img" src={require('../imgs/people/kefas-jibir.png')} alt="board of directors image"/>
                                 </div>
-                                
-                                <p></p>
-                            </div>
-                        </div> 
-                        <div className="card">
-                            <div className="img-wrapper">
-                                <img className="card-img" src={require('../imgs/people/4.jpg')} alt="board of directors image"/>
-                            </div>
-                            <div className="card-body">
-                                <div className="content">
-                                    <p className='name'>Dr Kefas Jibir, MBBS, FWACP</p>
-                                    <span className='role'>Chairman</span>
+                                <div className="card-body">
+                                    <div className="content">
+                                        <p className='name'>Dr Kefas Jibir, MBBS, FWACP</p>
+                                        <span className='role'>Chairman</span>
+                                    </div>
+                                    
+                                    <p></p>
                                 </div>
-                                
-                                <p></p>
-                            </div>
-                        </div> 
-                        <div className="card">
-                            <div className="img-wrapper">
-                                <img className="card-img" src={require('../imgs/people/kefas-jibir.png')} alt="board of directors image"/>
-                            </div>
-                            <div className="card-body">
-                                <div className="content">
-                                    <p className='name'>Dr Kefas Jibir, MBBS, FWACP</p>
-                                    <span className='role'>Chairman</span>
+                            </div> 
+                            <div className="card">
+                                <div className="img-wrapper">
+                                    <img className="card-img" src={require('../imgs/people/4.jpg')} alt="board of directors image"/>
                                 </div>
-                                
-                                <p></p>
-                            </div>
-                        </div>  
+                                <div className="card-body">
+                                    <div className="content">
+                                        <p className='name'>Dr Kefas Jibir, MBBS, FWACP</p>
+                                        <span className='role'>Chairman</span>
+                                    </div>
+                                    
+                                    <p></p>
+                                </div>
+                            </div> 
+                            <div className="card">
+                                <div className="img-wrapper">
+                                    <img className="card-img" src={require('../imgs/people/kefas-jibir.png')} alt="board of directors image"/>
+                                </div>
+                                <div className="card-body">
+                                    <div className="content">
+                                        <p className='name'>Dr Kefas Jibir, MBBS, FWACP</p>
+                                        <span className='role'>Chairman</span>
+                                    </div>
+                                    
+                                    <p></p>
+                                </div>
+                            </div>  
+                        </div>
                     </div>
                 </div>
+                
                 
             </div>
 

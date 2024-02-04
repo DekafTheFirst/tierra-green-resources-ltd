@@ -20,7 +20,7 @@ const Services = () => {
     const navigate = useNavigate();
 
     return (
-      <section className='services-page page'>
+      <div className='services page'>
           <div className='banner'>
               <div className="banner-heading">
                   <h1>Services</h1>
@@ -50,7 +50,7 @@ const Services = () => {
               </div>
               
           </div>
-    </section>
+    </div>
 )}
 
 
