@@ -47,16 +47,16 @@ const Contact = () => {
         <div className="container">
             <div className="contact-content">
                 <h2>What can we do for you?</h2>
-                <p>We are always ready and able to work on project of any complexity, be it commercial, residential and we also sell general merchandise.</p>
+                <p>We are always ready and able to work on project of any complexity and type. Be it farming, real estate or consultancy.</p>
                 <form ref={form} onSubmit={sendEmail}>
                     <div className="form row">
                         <input type="text" name="user_name" id="" placeholder="Your Name" />
                         <input type="email" name="user_email" id="" placeholder="Email" />
                         <select name="service" id="">
                             <option value="An Unknown Reason">Reason For Contacting*</option>
-                            <option value="Construction">Construction</option>
-                            <option value="Consultation">Consultation</option>
-                            <option value="Building Materials">Building Materials</option>
+                            <option value="farming">Farming</option>
+                            <option value="real-estate">Real Estate</option>
+                            <option value="consultation">Consultation</option>
                             <option value="Immigration Services">Immigration Services</option>
                         </select>
                         <input type="tel" name="phone_number" id="" placeholder="Phone" />

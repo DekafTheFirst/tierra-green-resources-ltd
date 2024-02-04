@@ -897,7 +897,7 @@ section {
 form input, form select, form textarea {
     padding: 1em 0.5em;
     width: 100%;
-    border: 1px solid var(--cl--4--);
+    border: 1px solid var(--cl--6--);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
