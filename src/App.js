@@ -11,6 +11,7 @@ import JoinUs from './components/JoinUs';
 import Donate from './components/Donate';
 import Services from './components/services/Services';
 import Projects from './components/Projects';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
@@ -19,19 +20,20 @@ function App() {
   return (
     <>
     <HashRouter>
+      <ScrollToTop />
       <Navbar  />
       <div id="content">
-          <Routes>
-            <Route path="/" element={<Home />}/>
-            <Route path="/about-us" element={<AboutUs/>}/>
-            <Route path="/services/:slug" element={<Services />} />
-            <Route path="/projects" element={<Projects />}/>     
-            <Route path="/join-us" element={<JoinUs />}/>
-            <Route path="/contact" element={<Contact />}/>
-            <Route path="/donate" element={<Donate />}/>
-
-            <Route path="*" element={<NoPage />} />
-          </Routes>  
+            <Routes>
+                <Route path="/" element={<Home />}/>
+                <Route path="/about-us" element={<AboutUs/>}/>
+                <Route path="/services/:slug" element={<Services />} />
+                <Route path="/projects" element={<Projects />}/>     
+                <Route path="/join-us" element={<JoinUs />}/>
+                <Route path="/contact" element={<Contact />}/>
+                <Route path="/donate" element={<Donate />}/>
+              <Route path="*" element={<NoPage />} />
+            </Routes> 
+ 
       </div>
       <Footer />
     </HashRouter>

@@ -41,15 +41,14 @@ const Services = () => {
 
           
 
-          <div className="container-fluid">
+          <section className="container-fluid">
               <div className="row justify-content-center">
                   
                   <div className="article col-lg-10">
                     {currentPage}
                   </div>
               </div>
-              
-          </div>
+          </section>
     </div>
 )}
 

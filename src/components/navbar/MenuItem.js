@@ -5,7 +5,7 @@ import Dropdown from './Dropdown'
 const MenuItem = ({item, show, setShow, navItemSpecial}) => {
   const [dropdown, setDropdown] = useState(true)
   return (
-    <li className={`nav-item ${navItemSpecial && 'nav-item-special'}`}>
+    <li className={`nav-item ${navItemSpecial ? 'nav-item-special':''}`}>
         {item.submenu ? (
             <>
               <span
@@ -15,7 +15,7 @@ const MenuItem = ({item, show, setShow, navItemSpecial}) => {
               >
                 {item.title}
               </span>
-              <Dropdown submenus={item.submenu} dropdown={dropdown} />
+              <Dropdown submenus={item.submenu} dropdown={dropdown} show={show} setShow={setShow}/>
             </>  
         ):(
             <NavLink to={item.url} className="nav-link" onClick={()=>{setShow(false)}}>{item.title}</NavLink>

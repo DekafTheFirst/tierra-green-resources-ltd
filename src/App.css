@@ -390,30 +390,30 @@ section {
 }
 
 
-/* Welcom */
+/* Welcome*/
 
 
 
 
 
-/* Reputation */
-.reputation {
-    padding: 100px 0;
+
+/* Services */
+.services-home {
+    padding: 170px 0;
 }
-
-.reputation .images-row {
+.services-home .images-row {
     row-gap: 30px;
     margin-bottom: 40px;
 }
 
 
-.reputation .cards {
+.services-home .cards {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
 }
 
-.reputation .card {
+.services-home .card {
     height: 210px;
     flex-basis: 370px;
     border: 2px solid rgba(0, 0, 0, 0);
@@ -423,7 +423,7 @@ section {
     box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
 }
 
-.reputation .card:hover {
+.services-home .card:hover {
     padding: -1px;
     border: 2px solid var(--cl--3--);
     transition: all .1s ease-out;
@@ -435,27 +435,27 @@ section {
     
 }
 
-.reputation .card img {
+.services-home .card img {
     width: 30px;
     margin-bottom: auto;
     margin-right: auto;
 }
 
-.reputation .card .link-img-wrapper {
+.services-home .card .link-img-wrapper {
     padding: 5px 20px;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0);
 }
 
-.reputation .card .link-img {
+.services-home .card .link-img {
     width: 20px;
 }
 
-.reputation .card:hover .link-img-wrapper {
+.services-home .card:hover .link-img-wrapper {
     border: 1px solid var(--cl--7--);
     transition: all .3s ease-out;
 }
-.reputation .card:hover .link-img {
+.services-home .card:hover .link-img {
     transform: rotate(-45deg);
     transition: all .3s ease-out;
 
@@ -466,18 +466,22 @@ section {
 
 
 
-.reputation .card p {
+.services-home .card p {
     font-size: 14px;
 }
 
 
-.reputation .card a {
+.services-home .card a {
     font-weight: 700;
     color: var(--cl--5--);
 }
 
+.home-about-us {
+    margin-bottom: 30px;
+}
 
 .home-about-us .content{
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -1201,31 +1205,31 @@ background-color: #E2725B;
     }
 
 
-    .reputation .images-row {
+    .services-home .images-row {
         flex-direction: row-reverse;
     }
 
-    .reputation .images-row img{
+    .services-home .images-row img{
         border-radius: 8px;
     }
-    .reputation .images-row .left-column {
+    .services-home .images-row .left-column {
         padding-right: 7px;
     }
 
-    .reputation .images-row .left-column img{
+    .services-home .images-row .left-column img{
         height: 100%;
         object-fit: cover;
 
     }
 
 
-    .reputation .images-row .right-column {
+    .services-home .images-row .right-column {
         padding-left: 7px;
         display: flex;
         flex-direction: column;
     }
 
-    .reputation .images-row .right-column img {
+    .services-home .images-row .right-column img {
         flex-grow: 2;
         object-fit: cover;
 
@@ -1402,7 +1406,6 @@ background-color: #E2725B;
         width: 90%;
     }
     .home-about-us .container-fluid > .row{
-        align-items: end;
         flex-direction: reverse;
     }
 
@@ -1412,6 +1415,10 @@ background-color: #E2725B;
 
     .banner {
         height: 50vh;
+    }
+
+    .home-about-us .content{
+        margin-top: 0;
     }
 
     .home-about-us .page-btn-2 {

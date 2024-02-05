@@ -139,11 +139,24 @@ const AboutUs = () => {
                         <div className="cards">
                             <div className="card">
                                 <div className="img-wrapper">
-                                    <img className="card-img" src={require('../imgs/people/kefas-jibir.png')} alt="board of directors image"/>
+                                    <img className="card-img" src={require('../imgs/people/femi-pat-natson.JPG')} alt="board of directors image"/>
                                 </div>
                                 <div className="card-body">
                                     <div className="content">
-                                        <p className='name'>Dr Kefas Jibir, MBBS, FWACP</p>
+                                        <p className='name'>Bar. Femi Pat-natson</p>
+                                        <span className='role'>Director</span>
+                                    </div>
+                                    
+                                    <p></p>
+                                </div>
+                            </div> 
+                            <div className="card">
+                                <div className="img-wrapper">
+                                    <img className="card-img" src={require('../imgs/people/partner.JPG')} alt="board of directors image"/>
+                                </div>
+                                <div className="card-body">
+                                    <div className="content">
+                                        <p className='name'>Mr Partner</p>
                                         <span className='role'>Chairman</span>
                                     </div>
                                     
@@ -152,25 +165,12 @@ const AboutUs = () => {
                             </div> 
                             <div className="card">
                                 <div className="img-wrapper">
-                                    <img className="card-img" src={require('../imgs/people/4.jpg')} alt="board of directors image"/>
+                                    <img className="card-img" src={require('../imgs/people/random-person.png')} alt="board of directors image"/>
                                 </div>
                                 <div className="card-body">
                                     <div className="content">
-                                        <p className='name'>Dr Kefas Jibir, MBBS, FWACP</p>
-                                        <span className='role'>Chairman</span>
-                                    </div>
-                                    
-                                    <p></p>
-                                </div>
-                            </div> 
-                            <div className="card">
-                                <div className="img-wrapper">
-                                    <img className="card-img" src={require('../imgs/people/kefas-jibir.png')} alt="board of directors image"/>
-                                </div>
-                                <div className="card-body">
-                                    <div className="content">
-                                        <p className='name'>Dr Kefas Jibir, MBBS, FWACP</p>
-                                        <span className='role'>Chairman</span>
+                                        <p className='name'>Random Person</p>
+                                        <span className='role'>Vice President</span>
                                     </div>
                                     
                                     <p></p>
